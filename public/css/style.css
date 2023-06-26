@@ -1,0 +1,512 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Caveat&family=Dancing+Script&family=Geologica&family=Inconsolata&family=Inspiration&family=Kalam&family=Kaushan+Script&family=Nanum+Pen+Script&family=Playfair&family=Space+Grotesk&family=Montserrat:wght@300&display=swap');
+
+
+/* 
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Geologica', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Inspiration', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Playfair', serif;
+font-family: 'Space Grotesk', sans-serif;
+*/
+.wrapper .main-sidebar a span{
+ font-family: 'Montserrat';
+}
+
+.wrapper .main-header ul li #presidenri{
+  font-family: 'Montserrat';
+}
+
+/* banner */
+.banner{
+  margin: auto;
+  height: calc(35vw + 15rem);
+  background-image: url(/storage/img/istana.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.banner .row{
+  width: 100%;
+  display: flex;
+  /* border: 1px solid white; */
+}
+.banner .row .banner-text{
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner .row .banner-text h1{
+  font-size: calc(3vw + 0.5em);
+  font-family: 'Geologica', sans-serif;
+  color: white;
+  padding: 0 0 calc(2vw + 0.5rem) calc(5vw + 0.5em);
+  /* border: 1px solid white; */
+  margin: 0;
+}
+.banner .row .banner-text .banner-button{
+  width: 100%;
+  padding: 0 0 0 calc(6vw + 0.5em);
+  /* border: 1px solid white; */
+}
+.banner .row .banner-text .banner-button button{
+  width: calc(12vw + 3em);
+  background-color: transparent;
+  border: 1.5px solid rgba(255,255,255,0.5);
+  color: white;
+  padding: calc(0.5vw + 0.1rem);
+  margin: 0 5px;
+}
+.banner .row .banner-text .banner-button button span{
+  font-size: calc(1vw + 0.3em);
+}
+.banner .row .banner-text .banner-button button span a{
+  text-decoration: none;
+  color: white;
+}
+.banner .row .banner-sosmed{
+  height: calc(10vw + 5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 calc(2.2vw + 0.1em) 0 0;
+}
+/* about */
+.about{
+  background-size: cover;
+  background-color:aliceblue;
+}
+.about .row-title{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.about .row .about-title {
+  padding: calc(3vw + 0.4rem) 0;
+  background-color: rgba(0,0,0,0.87);
+  margin: calc(0.5vw + 0.5rem) 0;
+}
+.about .row .about-title h1{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: calc(1.5vw + 0.7em);
+  color: white;
+}
+.about .row-content{
+  margin: auto;
+}
+.about .row .about-image img{
+  width: 100%;
+  height: calc(15vw + 10em);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px black;
+}
+.about .row .about-text{
+  padding: 2em calc(3vw + 1rem) 0;
+  background-image: url(/storage/img/bg-about-text.jpg);
+}
+.about .row .about-text p{
+  text-align: justify;
+  font-size: calc(1.2vw + 0.6em);
+  text-indent: 3em;
+  font-family: 'Caveat', cursive;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cards{
+  background-color:honeydew;
+  margin: calc(3vw + 1em) 0 0 0;
+  background-image: url(/storage/img/bg-cards.jpg);
+  background-size: cover;
+  height: fit-content;
+}
+.cards .row-title {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+.cards .row-title .cards-title h1{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+}
+.cards .row-title .cards-title p{
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: calc(1vw + 0.5em);
+  color: white;
+}
+.cards .cards-content{
+  padding: 0 0 calc(5vw + 1em) 0;
+}
+.cards .cards-content .row{
+  height: fit-content;
+}
+.cards .cards-content .row .card{
+  height: fit-content;
+  border: 1px solid transparent;
+  background-color: rgba(224, 211, 175, 0.3);
+  margin: calc(1vw + 0.5em) 0 0 0;
+}
+.cards .cards-content .row .card .top-card{
+  display: flex;
+  flex-direction: row;
+}
+.cards .cards-content .row .card .top-card .card-image img.profile{
+  width: calc(7vw + 2em);
+  height: calc(10vw + 2em);
+  box-shadow: 2px 2px 5px 2px gray;
+  border-radius: 5px;
+  filter:sepia(60%);
+  transform: rotate(-7deg);
+}
+.cards .cards-content .row .card .top-card .card-text{
+  width: 100%;
+  padding: 0 0 0 calc(1vw + 0.1em);
+}
+.cards .cards-content .row .card .top-card .card-text table thead tr td{
+  font-family: 'Kaushan Script', cursive;
+  font-size: calc(0.8vw + 1em);
+  line-height: 1em;
+  padding: calc(1vw + 0.5em) 0;
+}
+.cards .cards-content .row .card .top-card .card-text table tbody tr td{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: calc(0.6vw + 1rem);
+  line-height: 1em;
+}
+.cards .cards-content .row .card .bottom-card{
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .cards-content .row .card .bottom-card .card-text p{
+  text-indent: 2em;
+  font-family: 'Nanum Pen Script', cursive;
+  padding: calc(0.5vw + 0.5em) 0 0 0;
+  font-size: calc(0.6vw + 1rem);
+  line-height: 1.2em;
+  text-align: justify;
+}
+.cards .cards-content .row .card .bottom-card .btn-card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cards .cards-content .row .card .bottom-card .btn-card a{
+  width: 50%;
+}
+.cards .cards-content .row .card .bottom-card .btn-card a button{
+  width: 100%;
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 10px;
+  color: beige;
+}
+
+
+/* jobs */
+.jobs .row-title{
+  display: flex;
+  justify-content: center;
+  padding: calc(2vw + 1em) 0 calc(1vw + 0.5em);
+  background-color: rgba(0,0,0, 0.8);
+}
+.jobs .row-title .job-title h1,
+.jobs .row-title .job-title p{
+  font-family: 'Geologica', sans-serif;
+  text-align: center;
+  color: white;
+}
+.jobs .jobs-kepala-negara,
+.jobs .jobs-kepala-pemerintahan{
+  padding: calc(2vw + 1em) calc(5vw + 1em);
+}
+.jobs .jobs-kepala-negara .row .job .card,
+.jobs .jobs-kepala-pemerintahan .row .job .card{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.jobs .jobs-kepala-negara .row .job .card .card-image img,
+.jobs .jobs-kepala-pemerintahan .row .job .card .card-image img{
+  width: calc(3vw + 2em);
+  height: calc(3vw + 2em);
+}
+.jobs .jobs-kepala-negara .row .job .card .card-text,
+.jobs .jobs-kepala-pemerintahan .row .job .card .card-text{
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 calc(1vw + 0.5rem);
+}
+.jobs .jobs-kepala-negara .row .job .card .card-text p,
+.jobs .jobs-kepala-pemerintahan .row .job .card .card-text p{
+  line-height: 1.2em;
+  font-family: 'Kalam', cursive;
+}
+
+/* banner quote soekarno */
+.banner-quote-soekarno .row-banner{
+  /* padding: calc(3vw + 1em) calc(6vw + 3em); */
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0,0,0, 0.8);
+}
+.banner-quote-soekarno .row-banner .banner-image{
+  display: flex;
+  justify-content: center;
+}
+.banner-quote-soekarno .row-banner .banner-image img{
+  width: calc(35vw + 10em);
+}
+.banner-quote-soekarno .row-banner .banner-text{
+  padding: calc(3vw + 1em) 0 calc(3vw + 1em) calc(2vw + 1em);
+}
+.banner-quote-soekarno .row-banner .banner-text .banner-quote p{
+  font-size: calc(1.2vw + 1em);
+  font-family: 'Grandiflora One', serif;
+  color: white;
+  font-style: italic;
+}
+.banner-quote-soekarno .row-banner .banner-text .banner-signature{
+  display: flex;
+  justify-content: flex-end;
+}
+.banner-quote-soekarno .row-banner .banner-text .banner-signature img{
+  width: calc(10vw + 4em);
+  filter:invert(80%);
+}
+
+/* footer */
+.footer{
+  background-color: white;
+}
+.footer .row-input{
+  padding: 0px 0px 50px 0px;
+}
+.footer .row .footer-input{
+  padding: 0% 5% 0% 5%;
+}
+.footer .row .footer-input .footer-image img{
+  width: calc(7vw + 5em);
+}
+.footer .row .footer-input h2{
+  color: rgba(0,0,0, 0.8);
+}
+.footer .row .footer-input p{
+  color: rgba(0,0,0, 0.6);
+}
+.footer .row .footer-input form{
+  padding: 5px;
+  background-color: indianred;
+  display: flex;
+  border-radius: 10px;
+}
+.footer .row .footer-input form input{
+  width: 100%;
+  height: 38px;
+  border-radius: 5px;
+  padding: 0px 2% 0px 2%;
+  border: 1px solid transparent;
+}
+.footer .row .footer-input form .btn i{
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .row .footer-link .row{
+  display:flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+.footer .row .footer-link .row .link{
+  width: 100%;
+  padding: 0% 5% 0% 5%;
+  /* border: 1px solid black; */
+}
+.footer .row .footer-link .row .link h5{
+  color: rgba(0,0,0, 0.8);
+}
+.footer .row .footer-link .row .link a{
+  text-decoration: none;
+  color: rgba(0,0,0, 0.6);
+}
+.footer .row .footer-link .row .link a:hover{
+  color: white;
+}
+.footer .row-address,
+.footer .row-copyright{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.footer .row .footer-address{
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+
+
+/* ------------------------------ bio -------------------------------- */
+
+/* bio */
+.bio .row-title .bio-title{
+  display: flex;
+  justify-content: center;
+  padding: calc(2vw + 1em) 0;
+}
+.bio .row-title .bio-title h1{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 800;
+}
+.bio .row-content .card{
+  display: flex;
+  flex-direction: row;
+  padding: 0 calc(4vw + 1em);
+}
+.bio .row-content .card .card-image{
+  display: flex;
+  flex-direction: column;
+}
+.bio .row-content .card .card-image img{
+  width: calc(10vw + 5em);
+}
+.bio .row-content .card .card-image img.signature{
+  padding: calc(2vw + 1em) 0;
+}
+.bio .row-content .card .card-text{
+  padding: 0 0 0 calc(1vw + 1em);
+}
+.bio .row-content .card .card-text table tbody tr td{
+  vertical-align: top;
+}
+.bio .row-content .card .card-text table tbody tr td:nth-child(1){
+  font-family: 'Kaushan Script', cursive;
+}
+.bio .row-content .card .card-text table tbody tr td:nth-child(3){
+  padding: 0 0 0 calc(1vw + 0.5em);
+  text-align: justify;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+@media (max-width: 576px){
+  /* banner */
+  .banner{
+    margin: auto;
+  }
+  .banner .row {
+    margin: auto;
+  }
+  .banner .row .banner-text h1{
+    padding: 0;
+    text-align: center;
+  }
+  .banner .row .banner-text .banner-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .banner .row .banner-sosmed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  /* about */
+  .about .row .about-image img{
+    text-shadow: none;
+  }
+  /* card */
+  .cards .cards-content .row .card .bottom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* quotes soekarno */
+  .banner-quote-soekarno .row-banner .banner-image{
+    margin: 0;
+  }
+  /* footer */
+  .footer .row .footer-input .footer-image{
+    display: flex;
+    justify-content: center;
+  }
+  .footer .row .footer-address p{
+    text-align: center;
+  }
+  /* ---------------------- bio --------------------- */
+  .bio .row-content .card .card-image{
+    align-items: center;
+  }
+  .bio .row-content .card .card-text table tbody tr{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px){
+
+  /* banner */
+  .banner{
+    margin: auto;
+  }
+  .banner .row {
+    margin: auto;
+  }
+  .banner .row .banner-text h1{
+    text-align: center;
+    padding: 0;
+  }
+  .banner .row .banner-text .banner-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .banner .row .banner-sosmed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  /* about */
+  .about .row .about-image img{
+    text-shadow: none;
+  }
+  /* quotes soekarno */
+  .banner-quote-soekarno .row-banner .banner-image{
+    margin: 0;
+  }
+  /* footer */
+  .footer .row .footer-input .footer-image{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ---------------------- bio --------------------- */
+  .bio .row-content .card .card-text table tbody tr{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
